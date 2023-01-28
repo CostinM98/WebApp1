@@ -3,8 +3,8 @@ import streamlit as st
 import functions
 
 todos = functions.get_todos()
-
-
+# https://github.com/CostinM98/repository/blob/master/WebAppNo.1.py
+# https://github.com/CostinM98/repository/master/WebAppNo.1
 def add_todo():
     todo_local = st.session_state["new_todo"] + '\n'
     todos.append(todo_local)
