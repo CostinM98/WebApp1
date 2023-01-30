@@ -1,6 +1,6 @@
 
 
-
+#  a few functions modifications reletaed to gilepath
 def get_todos(filepath=r'C:\Users\Team OS\PycharmProjects\Python programs\Main\todos.txt'):
 
     with open(filepath, 'r') as fileLocal:

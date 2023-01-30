@@ -3,6 +3,7 @@ import streamlit as gl
 import functions
 
 todos = functions.get_todos()
+# final version
 
 def add_todo():
     todo_local = gl.session_state["new_todo"] + '\n'
